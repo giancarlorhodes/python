@@ -1,3 +1,5 @@
+import math
+
 
 class myFirstClass():
     var1 = 0
@@ -19,6 +21,7 @@ def main():
     c.method2(10000)
     c.var1 = 100
     c.method3()
+    print(math.sqrt(3))
 
 
 if __name__ == "__main__":
